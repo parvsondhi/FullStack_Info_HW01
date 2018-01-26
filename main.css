@@ -21,12 +21,38 @@ time, mark, audio, video {
 }
 
 html, body{
-
+    background-image: url(assets/backgrounds/background_home.png)
 }
 
 /*********   header   **********/
 header {
+    background-color: #cc0000;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
 
+header * {
+    display: inline-block;
+    vertical-align: top;
+}
+
+header button {
+    width: 10%;
+    height: 40px;
+}
+
+#site-title {
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fafafa;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#site-logo {
+    height: 40px;
 }
 
 /*********   article   **********/
