@@ -51,27 +51,27 @@ header button{
 	background-color: #E7F4FC;
 	font-size: 100%;
 }
-#header-title{
+header h1{
 	display: inline-block;
 	font-weight: bold;
 	font-size: 120%;
 	letter-spacing: 2px;
 	margin: 15px;
 }
-#header-icon{
+header img{
 	height: 80%;
 	float:right;
 	margin: 5px;
 }
-html { 
-    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
-    image-rendering: -moz-crisp-edges;          /* Firefox                        */
-    image-rendering: -o-crisp-edges;            /* Opera                          */
-    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
-    image-rendering: pixelated; /* Chrome */
-    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
-    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
 
+html { 
+    image-rendering: optimizeSpeed; 
+    image-rendering: -moz-crisp-edges; 
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
 }
 
 #search-section{
@@ -79,40 +79,42 @@ html {
 	margin: 10px 0px 10px 0px;
 }
 
-#search-box{
+#search-section input{
 	font-size: 100%;
 	padding: 5px 20px 5px 20px;
 	margin: 5px 20px 5px 20px;
-	width: 80%;
+	width: 75%;
 }
 
-.selected-pic{
+#selected-pic{
 	text-align: center;
 }
-.selected-img{
+
+#selected-pic img{
 	max-width: 100px;
 	width:70%;
 }
-.selected-name{
+
+#selected-namebox h2{
 	background:	#5A90CC;
 	font-size: 120%;
 	color: white;
 	padding: 10px 0px 10px 30px;
 }
 
-.selected-attrs{
+#selected-namebox ul{
 	padding: 15px 0px 15px 50px;
 	background: white;
 }
 
-.selected-namebox{
+#selected-namebox{
 	border: 1px solid black;
 	margin: 0px 0px 0px 0px;
 	width:58%;
 	display: inline-block;
 }
 
-.selected-description{
+#pokemon-description{
 	background-color:white;
 	border: 5px solid #BE5958;
 	border-radius: 15px;
@@ -120,35 +122,32 @@ html {
 	margin: 30px 15px 30px 15px;
 }
 
-.selected-pic{
+#selected-pic{
 	width:35%;
 	display: inline-block;
 }
-.pokemon-grid-item img{
+
+#pokemon-grid div img{
 	width:100%;
 	display: block;
 }
-.pokemon-grid-item{
+#pokemon-grid div{
 	display: inline-block;
 	width:16.66%;
 	outline: 2px solid black;
 	vertical-align: middle;
 }
 
-.footer-bar{
+nav{
 	display: inline-block;
 	width:25%;
 	text-align: center;
 	background:#558FCE;
 }
 
-.footer-bar button{
+nav button{
 	display: block;
 	width: 60%;
-}
-/*********   article   **********/
-article {
-
 }
 
 /*********   section   **********/
@@ -156,8 +155,3 @@ section {
 	display: block;
 }
 
-/*********   nav   **********/
-
-nav {
-
-}
