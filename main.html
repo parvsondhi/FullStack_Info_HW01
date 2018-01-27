@@ -6,8 +6,9 @@
 		<title>pokedex</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- make sure to link to your css file -->
-        <link rel="stylesheet" type="text/css" href="main.css">
         <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 
 	<body>
@@ -15,13 +16,87 @@
         <header>
             <button type="button">Dropdown</button>
             <h2 id="site-title">Pokedex</h2>
-			<img id="site-logo" src="assets/icons/pokeball_icon.png">
+			<a href="#"><img id="site-logo" src="assets/icons/pokeball_icon.png"></a>
         </header>
 
 		<!-- depending on how you structure your html, you should have 3 section tags -->
 			<!-- 1) search box -->
+        <section id="search-bar">
+            <form action="">
+                <input type="text" placeholder="Search Pokemon" name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </section>
 			<!-- 2) selected pokemon: picture, property and description of pikachu -->
+        <section id="selected-pokemon">
+            <article>
+                <img src="assets/images/pikachu.png">
+                <table>
+                    <tr>
+                        <th>No. 001 Pikachu</th>
+                    </tr>
+                    <tr>
+                        <td> - Electric type</td>
+                    </tr>
+                    <tr>
+                        <td> - Gentle temperment</td>
+                    </tr>
+                    <tr>
+                        <td> - Grasslands</td>
+                    </tr>
+                </table>
+            </article>
+            <div>
+                <p>
+                    Pickahu can be seen napping in a bright sunlight. It has two red dots
+                    on its cheeks. By practicing html and css Pikachu can learn confusion. 
+                    Pikachu likes to steal computer chargers from sleeping college students.
+                </p>
+            </div>
+        </section>
 			<!-- 3) other pokemon pictures in 2x6 format -->
+        <section id="all-pokemon">
+            <div class="row-pokemon">
+                <div class="cell-pokemon">
+                    <img src="assets/images/whatisthat.png">
+                </div>
+                <div class="cell-pokemon">
+                    <img src="assets/images/abra.png">
+                </div>
+                <div class="cell-pokemon">
+                    <img src="assets/images/vulpix.png">
+                </div>
+                <div class="cell-pokemon">
+                    <img src="assets/images/nidorino.png">
+                </div>
+                <div class="cell-pokemon">
+                    <img src="assets/images/clafary.png">
+                </div>
+                <div class="cell-pokemon">
+                    <img src="assets/images/charmeleon.png">
+                </div>
+            </div>
+            <div class="row-pokemon">
+                <div class="cell-pokemon">
+                    <img src="assets/images/charmander.png">
+                </div>
+                <div class="cell-pokemon">
+                    <img src="assets/images/firething.png">
+                </div>
+                <div class="cell-pokemon">
+                    <img src="assets/images/jigglypuff.png">
+                </div>
+                <div class="cell-pokemon">
+                    <img src="assets/images/horsea.png">
+                </div>
+                <div class="cell-pokemon">
+                    <img src="assets/images/pidgey.png">
+                </div>
+                <div class="cell-pokemon">
+                    <img src="assets/images/wartortle.png">
+                </div>
+            </div>
+        </section>
 
 		<!-- include navigation buttons -->
 

@@ -18,10 +18,11 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 	max-width: none;
+    font-family: 'Press Start 2P', cursive;
 }
 
 html, body{
-    background-image: url(assets/backgrounds/background_home.png)
+    background-image: url(assets/backgrounds/background_home.png);
 }
 
 /*********   header   **********/
@@ -40,6 +41,7 @@ header * {
 header button {
     width: 10%;
     height: 40px;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #site-title {
@@ -48,7 +50,7 @@ header button {
     text-align: center;
     line-height: 40px;
     color: #fafafa;
-    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
 }
 
 #site-logo {
@@ -63,6 +65,41 @@ article {
 /*********   section   **********/
 section {
 
+}
+
+#search-bar {
+    height: 60px;
+    padding-top: 60px;
+}
+
+#search-bar form {
+    height: 60%;
+    width: 60%;
+}
+
+#search-bar form * {
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#search-bar form input {
+    width: 80%;
+    margin: auto;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+#search-bar form button {
+    height: 36px;
+}
+
+#search-bar form button:after {
+    padding-bottom: 100%;
+}
+
+.cell-pokemon {
+    display: inline-block;
 }
 
 /*********   nav   **********/
