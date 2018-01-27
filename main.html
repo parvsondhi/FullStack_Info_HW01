@@ -5,12 +5,82 @@
 		<meta charset="UTF-8">
 		<title>pokedex</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- make sure to link to your css file -->
+		<link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 
 	<body>
 		<!-- include a header tag -->
+		<header>
+			<button class="round-button">Dropdown</button>
+			<h1 id="header-title">Pokedex</h1>
+			<img id="header-icon" src="assets/icons/pokeball_icon.png">
+		</header>
 
+		<section id='search-section'>
+			<input id="search-box" type="text" placeholder="Search Pokemon">
+		</section>
+
+		<section id="selected-pokemon">
+			<p>
+				<div class="selected-pic">
+					<img class="selected-img" src="assets/images/pikachu.png" >
+				</div>
+				<div class="selected-namebox">
+					<h2 class='selected-name'>
+						No. 001 Pikachu
+					</h2>
+					<ul class="selected-attrs">
+						<li>Electric type</li>
+						<li>Gentle temperment</li>
+						<li>Grasslands</li>
+					</ul>
+				</div>
+				<p class="selected-description">
+					Pickahu can be seen napping in a bright sunlight. It has two red dots on its cheeks. By practicing html and css Pikachu can learn confusion. Pikachu likes to steal computer chargers from sleeping college students.
+				</p>
+			</p>
+		</section>
+
+		<section>
+			<div class="pokemon-grid-item">
+				<img src="assets/images/whatisthat.png">
+			</div><div class="pokemon-grid-item">
+				<img src="assets/images/abra.png">
+			</div><div class="pokemon-grid-item">
+				<img src="assets/images/vulpix.png">
+			</div><div class="pokemon-grid-item">
+				<img src="assets/images/nidorino.png">
+			</div><div class="pokemon-grid-item">
+				<img src="assets/images/clafary.png">
+			</div><div class="pokemon-grid-item">
+				<img src="assets/images/charmeleon.png">
+			</div>
+
+			<div class="pokemon-grid-item">
+				<img src="assets/images/charmander.png">
+			</div><div class="pokemon-grid-item">
+				<img src="assets/images/firething.png">
+			</div><div class="pokemon-grid-item">
+				<img src="assets/images/jigglypuff.png">
+			</div><div class="pokemon-grid-item">
+				<img src="assets/images/horsea.png">
+			</div><div class="pokemon-grid-item">
+				<img src="assets/images/pidgey.png">
+			</div><div class="pokemon-grid-item">
+				<img src="assets/images/wartortle.png">
+			</div>
+		</section>
+		<footer>
+			<div class="footer-bar">
+				<button class="round-button">BACK</button>
+			</div><div class="footer-bar">
+				<button class="round-button">MAP</button>
+			</div><div class="footer-bar">
+				<button class="round-button">AREA</button>
+			</div><div class="footer-bar">
+				<button class="round-button">NEXT</button>
+			</div>
+		</footer>
 		<!-- depending on how you structure your html, you should have 3 section tags -->
 			<!-- 1) search box -->
 			<!-- 2) selected pokemon: picture, property and description of pikachu -->

@@ -16,19 +16,136 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	font-family: sans-serif;
 	vertical-align: baseline;
 	max-width: none;
 }
 
-html, body{
+body{
+	background-image: url("assets/backgrounds/background_home.png");
+	/*background-size: cover;*/
+	background-size:100% 80%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0px 50px;
+}
 
+button{
+	border-radius: 5px;
 }
 
 /*********   header   **********/
 header {
+	background: #BE5958;
+	height: 50px;
+	color: white;
+	text-align: center;
+}
+
+header button{
+	float:left;
+}
+
+.round-button{
+	margin: 15px;
+	background-color: #E7F4FC;
+	font-size: 100%;
+}
+#header-title{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 120%;
+	letter-spacing: 2px;
+	margin: 15px;
+}
+#header-icon{
+	height: 80%;
+	float:right;
+	margin: 5px;
+}
+html { 
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated; /* Chrome */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
 
 }
 
+#search-section{
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+}
+
+#search-box{
+	font-size: 100%;
+	padding: 5px 20px 5px 20px;
+	margin: 5px 20px 5px 20px;
+	width: 80%;
+}
+
+.selected-pic{
+	text-align: center;
+}
+.selected-img{
+	max-width: 100px;
+	width:70%;
+}
+.selected-name{
+	background:	#5A90CC;
+	font-size: 120%;
+	color: white;
+	padding: 10px 0px 10px 30px;
+}
+
+.selected-attrs{
+	padding: 15px 0px 15px 50px;
+	background: white;
+}
+
+.selected-namebox{
+	border: 1px solid black;
+	margin: 0px 0px 0px 0px;
+	width:58%;
+	display: inline-block;
+}
+
+.selected-description{
+	background-color:white;
+	border: 5px solid #BE5958;
+	border-radius: 15px;
+	padding: 15px;
+	margin: 30px 15px 30px 15px;
+}
+
+.selected-pic{
+	width:35%;
+	display: inline-block;
+}
+.pokemon-grid-item img{
+	width:100%;
+	display: block;
+}
+.pokemon-grid-item{
+	display: inline-block;
+	width:16.66%;
+	outline: 2px solid black;
+	vertical-align: middle;
+}
+
+.footer-bar{
+	display: inline-block;
+	width:25%;
+	text-align: center;
+	background:#558FCE;
+}
+
+.footer-bar button{
+	display: block;
+	width: 60%;
+}
 /*********   article   **********/
 article {
 
@@ -36,7 +153,7 @@ article {
 
 /*********   section   **********/
 section {
-
+	display: block;
 }
 
 /*********   nav   **********/
