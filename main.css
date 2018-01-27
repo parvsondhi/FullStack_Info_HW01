@@ -46,7 +46,7 @@ header button{
 	float:left;
 }
 
-.round-button{
+button{
 	margin: 15px;
 	background-color: #E7F4FC;
 	font-size: 100%;
