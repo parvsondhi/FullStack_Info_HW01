@@ -23,6 +23,7 @@ time, mark, audio, video {
 
 html, body{
     background-image: url(assets/backgrounds/background_home.png);
+    background-size: cover;
 }
 
 /*********   header   **********/
@@ -86,20 +87,53 @@ section {
 #search-bar form input {
     width: 80%;
     margin: auto;
-    padding-left: 20px;
+    padding-left: 10%;
     font-size: 16px;
 }
 
-#search-bar form button {
-    height: 36px;
+#selected-pokemon article img {
+    display: inline-block;
+    width: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-#search-bar form button:after {
-    padding-bottom: 100%;
+#pokemon-number {
+    font-style: italic;
+}
+
+.selected-pokemon-info {
+    height: 200px;
+    vertical-align: bottom;
+}
+
+#selected-pokemon-description {
+    display: inline-block;
+    border: 2px solid #a8a8a8;
+}
+
+#selected-pokemon-description p {
+    color: #fafafa;
+    background-color: #5c90cc;
+}
+
+#selected-pokemon-description ul {
+    background-color: #fafafa;
+}
+
+.row-pokemon {
+    margin: 0px;
 }
 
 .cell-pokemon {
     display: inline-block;
+    width: 15%;
+    border: 2px solid #a8a8a8;
+}
+
+.cell-pokemon img {
+    width: 100%;
+    object-fit: contain;
 }
 
 /*********   nav   **********/

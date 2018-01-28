@@ -24,27 +24,20 @@
         <section id="search-bar">
             <form action="">
                 <input type="text" placeholder="Search Pokemon" name="search">
-                <button type="submit"><i class="fa fa-search"></i></button>
             </form>
         </section>
 			<!-- 2) selected pokemon: picture, property and description of pikachu -->
         <section id="selected-pokemon">
             <article>
-                <img src="assets/images/pikachu.png">
-                <table>
-                    <tr>
-                        <th>No. 001 Pikachu</th>
-                    </tr>
-                    <tr>
-                        <td> - Electric type</td>
-                    </tr>
-                    <tr>
-                        <td> - Gentle temperment</td>
-                    </tr>
-                    <tr>
-                        <td> - Grasslands</td>
-                    </tr>
-                </table>
+                <img class="selected-pokemon-info" src="assets/images/pikachu.png">
+                <div class="selected-pokemon-info" id="selected-pokemon-description">
+                    <p><span id="pokemon-number">No. 001</span> Pikachu</p>
+                    <ul>
+                        <li>Electric type</li>
+                        <li>Gentle temperment</li>
+                        <li>Grasslands</li>
+                    </ul>
+                </div>
             </article>
             <div>
                 <p>
