@@ -18,15 +18,45 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 	max-width: none;
+    font-family: 'Press Start 2P', cursive;
 }
 
 html, body{
-
+    background-image: url(assets/backgrounds/background_home.png);
+    background-size: auto;
 }
 
 /*********   header   **********/
 header {
+    background-color: #be5959;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
 
+header * {
+    display: inline-block;
+    vertical-align: top;
+}
+
+header button {
+    width: 20%;
+    height: 40px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#site-title {
+    width: 60%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fafafa;
+    font-size: 24px;
+    padding-right: 10%;
+}
+
+#site-logo {
+    height: 40px;
 }
 
 /*********   article   **********/
@@ -36,11 +66,117 @@ article {
 
 /*********   section   **********/
 section {
+    text-align: center;
+}
 
+#search-bar {
+    height: 60px;
+    padding-top: 80px;
+}
+
+#search-bar > form {
+    height: 60%;
+    width: 90%;
+}
+
+#search-bar > form * {
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#search-bar > form > input {
+    width: 80%;
+    margin: auto;
+    padding-left: 5%;
+    font-size: 16px;
+}
+
+#selected-pokemon {
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+#selected-pokemon > article > img {
+    display: inline-block;
+    width: 20%;
+    object-fit: contain;
+}
+
+#pokemon-number {
+    font-style: italic;
+}
+
+.selected-pokemon-info {
+    height: 180px;
+    vertical-align: bottom;
+}
+
+#selected-pokemon-description {
+    width: 60%;
+    display: inline-block;
+    border: 2px solid #a8a8a8;
+    text-align: left;
+    background-color: #fafafa;
+}
+
+#selected-pokemon-description > p {
+    color: #fafafa;
+    background-color: #5c90cc;
+    padding: 3%;
+    padding-left: 8%;
+}
+
+#selected-pokemon-description > ul {
+    padding: 5%;
+    height: 40%;
+    list-style: none;
+}
+
+#selected-pokemon-description > ul > li {
+    padding: 1%;
+}
+
+#selected-pokemon > div {
+    background-color: #fafafa;
+    width: 80%;
+    padding: 2%;
+    margin-top: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border: 8px solid #be5959;
+    border-radius: 25px;
+    text-align: justify;
+}
+
+.cell-pokemon {
+    display: inline-block;
+    width: 16%;
+    border: 2px solid #a8a8a8;
+    margin: 0px;
+}
+
+.cell-pokemon > img {
+    width: 100%;
+    object-fit: contain;
 }
 
 /*********   nav   **********/
 
 nav {
+    padding: 3%;
+    text-align: center;
+    background-color: #5c90cc;
+}
 
+nav > button {
+    width: 20%;
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 2px solid #3b5b7f;
+    border-radius: 5px;
+    background-color: #e5e5e5;
 }
