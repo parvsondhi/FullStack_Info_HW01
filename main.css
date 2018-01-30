@@ -220,18 +220,18 @@ footer button {
 }
 
 
-/*********   article   **********/
-article {
-
+#area-map {
+	width: 100%;
+	height: 100%;
+	background-image: url("assets/backgrounds/area.png");
+	background-size: cover;
+	background-position: center;
 }
 
-/*********   section   **********/
-section {
-
-}
-
-/*********   nav   **********/
-
-nav {
-
+#global-map {
+	width: 100%;
+	height: 100%;
+	background-image: url("assets/backgrounds/map.jpg");
+	background-size: cover;
+	background-position: center;
 }
