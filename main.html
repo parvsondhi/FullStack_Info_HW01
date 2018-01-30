@@ -3,12 +3,95 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>pokedex</title>
+		<title>Pokedex</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- make sure to link to your css file -->
+
+		<link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="main.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	</head>
 
 	<body>
+
+		<main id="pokedex">
+			<header>
+				<nav>
+					<div class="select">
+						<select name="Dropdown">
+								<option value="0">Dropdown</option>
+								<option value="1">Option 1</option>
+								<option value="2">Option 2</option>
+								<option value="3">Option 3</option>
+								<option value="4">Option 4</option>
+						</select>
+					</div>
+				</nav>
+				<div>
+					<h1>Pokedex</h1>
+				</div>
+				<div>
+					<img src="assets/icons/pokeball_icon.png" alt="Pokeball">
+				</div>
+			</header>
+			<section>
+				<input id="search" type="text" placeholder="Search Pokemon">
+
+				<figure>
+					<div>
+						<img src="assets/images/pikachu.png" alt="Pikachu">
+					</div>
+					<div>
+						<figcaption>No. 001 Pickachu</figcaption>
+						<div>
+							<ul>
+								<li>Electric Type</li>
+								<li>Gentle Temperament</li>
+								<li>Grassland</li>
+							</ul>
+						</div>
+					</div>
+				</figure>
+
+				<div class="description">
+					<p>
+						Pikachu can be seen napping in a bright sunlight. It has two red dots on its cheecks. By practicing html and css Pikachu can learn confusion. Pikachu likes to steal computer chargers from sleeping college students.
+					</p>
+				</div>
+
+				<div class="thumbnail-container">
+					<img class="thumbnail" src="assets/images/whatisthat.png" alt="whatisthat">
+					<img class="thumbnail" src="assets/images/abra.png" alt="Abra">
+					<img class="thumbnail" src="assets/images/vulpix.png" alt="Vulpix">
+					<img class="thumbnail" src="assets/images/nidorino.png" alt="Nidorino">
+					<img class="thumbnail" src="assets/images/clafary.png" alt="Clafary">
+					<img class="thumbnail" src="assets/images/charmeleon.png" alt="Charmeleon">
+					<img class="thumbnail" src="assets/images/charmander.png" alt="Charmander">
+					<img class="thumbnail" src="assets/images/firething.png" alt="Firething">
+					<img class="thumbnail" src="assets/images/jigglypuff.png" alt="Jigglypuff">
+					<img class="thumbnail" src="assets/images/horsea.png" alt="Horsea">
+					<img class="thumbnail" src="assets/images/pidgey.png" alt="Pidgey">
+					<img class="thumbnail" src="assets/images/wartortle.png" alt="Wartortle">
+				</div>
+
+			</section>
+
+			<footer>
+				<nav>
+					<a href="#">
+						<button>Back</button>
+					</a>
+					<a href="map.html">
+						<button>Map</button>
+					</a>
+					<a href="area.html">
+						<button>Area</button>
+					</a>
+					<a href="#">
+						<button>Next</button>
+					</a>
+				</nav>
+			</footer>
+		</main>
 		<!-- include a header tag -->
 
 		<!-- depending on how you structure your html, you should have 3 section tags -->
