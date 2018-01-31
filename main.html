@@ -5,18 +5,106 @@
 		<meta charset="UTF-8">
 		<title>pokedex</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- make sure to link to your css file -->
+		<link rel="icon" href="assets/icons/pokeball_icon.png" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 
-	<body>
-		<!-- include a header tag -->
+	<body background="assets/backgrounds/background_home.png">
+		<header>
+			
+			<div class="dropDown">
+				<button type="button">Dropdown</button>
+			</div>
 
-		<!-- depending on how you structure your html, you should have 3 section tags -->
+			<div>
+				<h1>Pokedex</h1>
+			</div>
+
+			<div>
+				<img src="assets/icons/pokeball_icon.png">
+			</div>
+			
+		</header>
+
+<!-- depending on how you structure your html, you should have 3 section tags -->
 			<!-- 1) search box -->
 			<!-- 2) selected pokemon: picture, property and description of pikachu -->
 			<!-- 3) other pokemon pictures in 2x6 format -->
+		<section>
+			<input id="searchBar" type="text" placeholder="Search Pokemon">
+		</section>
+
+		<section id="Pokemon info">
+
+			<figure>
+
+				<div>
+					<img src="assets/images/pikachu.png" alt"pikachu">
+				</div>
+				<div>
+					<figcaption>No.001 Pikachu</figcaption>
+
+					<div>
+						<ul>
+			 				<li>Electric type</li>
+			  				<li>Gentle temperment</li>
+			 			 	<li>Grasslands</li>
+						</ul>
+					</div>
+					
+				</div>
+				
+			</figure>
+
+		</section>
+
+		<article class="paragraph">
+			<p>Pikachu can be seen napping in a bright sunlight. It has two red dots on its cheeks. By practicing html and css Pikachu can learn confusion. Pikachu likes to steal computer chargers from sleeping college students.</p>
+		</article>
+
+		<section id="Pokemons">
+			<div class="photosHolder">
+				<img class="photos" src="assets/images/whatisthat.png" alt="whatisthat">
+				<img class="photos" src="assets/images/abra.png" alt="abra">
+		
+				<img class="photos" src="assets/images/vulpix.png" alt="vulpix">
+			
+				<img class="photos" src="assets/images/nidorino.png" alt="nidorino">
+			
+				<img class="photos" src="assets/images/clafary.png" alt="clafary">
+			
+				<img class="photos" src="assets/images/charmeleon.png" alt="charmeleon">
+
+				<img class="photos" src="assets/images/charmander.png" alt="charmander">
+			
+				<img class="photos" src="assets/images/firething.png" alt="firething">
+			
+				<img class="photos" src="assets/images/jigglypuff.png" alt="jigglypuff">
+			
+				<img class="photos" src="assets/images/horsea.png" alt="horsea">
+			
+				<img class="photos" src="assets/images/pidgey.png" alt="pidgey">
+			
+				<img class="photos" src="assets/images/wartortle.png" alt="wartortle">
+			</div>
+
+		</section>
+		
 
 		<!-- include navigation buttons -->
-
+		<footer>
+			<nav>
+				<button type="button"> BACK</button>
+				<a href="map.html">
+					<button type="button"> MAP</button>
+				</a>
+				
+				<a href="area.html">
+					<button type="button"> AREA</button>
+				</a>
+				
+				<button type="button"> NEXT</button>
+			</nav>
+		</footer>
 	</body>
 </html>
