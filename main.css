@@ -49,6 +49,14 @@ padding-top: 10px;
 	font-weight: bold;
 	vertical-align: middle;
 }
+
+.textarea {
+	width: 80%;
+}
+
+.textarea > textarea {
+  width: inherit;
+}
 /*********   article   **********/
 .article {
 margin-top: 5px;
@@ -117,8 +125,15 @@ section {
 }
 
 .container {
-
 	margin-top: 5px;
+}
+
+.map img {
+	width: 100%;
+}
+
+.area img {
+	width: 100%;
 }
 
 .parent {
