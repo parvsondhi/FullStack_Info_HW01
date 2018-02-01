@@ -5,18 +5,69 @@
 		<meta charset="UTF-8">
 		<title>pokedex</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel = "stylesheet" type="text/css" href="main.css" />
 		<!-- make sure to link to your css file -->
 	</head>
 
 	<body>
 		<!-- include a header tag -->
+		<header>
+			<!-- <button id="dropdown">Dropdown</button> -->
+			<img src="assets/icons/hamburger_icon.png" id="hamburgernav"></img>
+			<h1>Pokedex</h1>
+			<img src="assets/icons/pokeball_icon.png" id="pokeball"></img>
+		</header>
 
-		<!-- depending on how you structure your html, you should have 3 section tags -->
-			<!-- 1) search box -->
-			<!-- 2) selected pokemon: picture, property and description of pikachu -->
-			<!-- 3) other pokemon pictures in 2x6 format -->
+		<section id="searchbox">
+			<input type="text" placeholder="Search Pokemon">
+		</section>
 
-		<!-- include navigation buttons -->
+		<section id="selectedpokemon">
+			<img src="assets/images/pikachu.png" class="pokemonpic"></img>
+			<div id="property">
+				<div id="number">
+					No. 001 Pikachu
+				</div>
+				<div id="poketype">
+					<ul>
+						<li>Electric type</li>
+						<li>Gentle temperment</li>
+						<li>Grasslands</li>
+					</ul>
+				</div>
+			</div>
+			<div id="description">Pikachu can be seen napping in a bright sunlight. It has two red dots on its cheeks. By practicing html and css, Pikachu can learn confusion. Pikachu likes to steak computer chargers from sleeping college students.</div>
+		</section>
+
+		<section id="otherpokemon">
+			<img src="assets/images/whatisthat.png" class="pokemonpicother"></img>
+			<img src="assets/images/abra.png" class="pokemonpicother"></img>
+			<img src="assets/images/vulpix.png" class="pokemonpicother"></img>
+			<img src="assets/images/nidorino.png" class="pokemonpicother"></img>
+			<img src="assets/images/clafary.png" class="pokemonpicother"></img>
+			<img src="assets/images/charmeleon.png" class="pokemonpicother"></img>
+		</section>
+		<section id="otherpokemon">
+			<img src="assets/images/charmander.png" class="pokemonpicother"></img>
+			<img src="assets/images/firething.png" class="pokemonpicother"></img>
+			<img src="assets/images/jigglypuff.png" class="pokemonpicother"></img>
+			<img src="assets/images/horsea.png" class="pokemonpicother"></img>
+			<img src="assets/images/pidgey.png" class="pokemonpicother"></img>
+			<img src="assets/images/wartortle.png" class="pokemonpicother"></img>
+		</section>
+
+			<!-- depending on how you structure your html, you should have 3 section tags -->
+				<!-- 1) search box -->
+				<!-- 2) selected pokemon: picture, property and description of pikachu -->
+				<!-- 3) other pokemon pictures in 2x6 format -->
+
+			<!-- include navigation buttons -->
+		<footer id="nav">
+			<button>BACK</button>
+			<button>MAP</button>
+			<button>AREA</button>
+			<button>NEXT</button>
+		</footer>
 
 	</body>
 </html>
