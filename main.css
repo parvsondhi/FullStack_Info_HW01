@@ -21,26 +21,110 @@ time, mark, audio, video {
 }
 
 html, body{
-
+	font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
 }
+
 
 /*********   header   **********/
 header {
+	text-align: center;
+	box-sizing: border-box;
+	height: 50px;
+}
 
+#dropdown {
+	float: left;
+	margin: 15px;
+	font-size: 16px;
+}
+
+#site-title {
+	font-size: 36px;
+	color: white;
+	border: 15px;
+	width: 25%;
+	vertical-align: middle;
+	font-weight: 700;
+	font-size: 24px;
+	display: inline;
+}
+
+img#logo {
+	width: 48px;
+	display: inline;
+	margin: 0px;
+	float: right;
 }
 
 /*********   article   **********/
 article {
-	background-image: url('assets/backgrounds/background_home.png')
+
+}
+
+input {
+	margin: 15px;
+	width: 94%;
+}
+
+ul {
+	list-style: none;
 }
 
 /*********   section   **********/
 section {
 
 }
+section#container {
+	background-image: url('assets/backgrounds/background_home.png');
+	background-size: cover;
+}
+
+#selected_poke_container {
+	height: 300px;
+}
+
+#selected_poke {
+	width: 25%;
+	float: left;
+	display: inline-block;
+}
+
+#info_box_head {
+	background-color: rgb(94, 143, 204);
+	color: white;
+	width: inherit;
+}
+
+#info_box_property {
+	width: inherit;
+	background-color: white;
+}
+
+#info_box {
+	width: 66%;
+	/* float: left; */
+	display: inline;
+}
+
+div#poke_text {
+	border-radius: 15px;
+	border: 8px solid rgb(190, 88, 89);
+	padding: 25px;
+	width: 90%;
+	background-color: white;
+	font-size: 24px;
+}
 
 /*********   nav   **********/
-
 nav {
 
+}
+
+/*********   colors   **********/
+.red {
+  background-color: rgb(190, 88, 89);
+}
+
+.blue {
+	background-color: rgb(94, 143, 204);
 }
