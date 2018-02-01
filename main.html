@@ -1,22 +1,77 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>pokedex</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- make sure to link to your css file -->
-	</head>
+  <head>
+    <meta charset="UTF-8">
+    <title>pokedex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- make sure to link to your css file -->
+  </head>
+  <body>
+    <!-- include a header tag -->
+    <header>
+      <button onclick="window.location.href='#selected'">Dropdown</button>
+      <span>Pokedex</span>
+      <img src="icons/pokeball_icon.png">
+    </header>
+    
+    <div class="container">
+    <!-- search box -->
+    <section class="search-box">
+      <input id="search" type="search" placeholder="Search Pokemon" required>
+    </section>
 
-	<body>
-		<!-- include a header tag -->
-
-		<!-- depending on how you structure your html, you should have 3 section tags -->
-			<!-- 1) search box -->
-			<!-- 2) selected pokemon: picture, property and description of pikachu -->
-			<!-- 3) other pokemon pictures in 2x6 format -->
-
-		<!-- include navigation buttons -->
-
-	</body>
+    <!--  selected pokemon -->
+    <section class="selected-pokemon" id="selected">
+      <img src="img/pikachu.png">
+      <table>
+        <tr>
+            <th>No. 001 Pikachu</th>
+        </tr>
+        <tr>
+          <td>
+            <ul>
+              <li>- Electric type</li>
+              <li>- Gentle temperment</li>
+              <li>- Grasslands</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <article>
+        <p>
+          Pickachu can be seen napping in a bright sunlight. It has two red dots on its cheeks. By practicing html and css Pikachu can learn confusion. Pikachu likes to steal computer chargers from sleeping college students.
+        </p>
+      </article>
+    </section>
+  </div>
+    <!--  other pokemon pictures in 2x6 format -->
+    <section class="other-pokemon">
+      <div class="flex-container">
+        <div><img src="img/whatisthat.png"></div>
+        <div><img src="img/abra.png"></div>
+        <div><img src="img/vulpix.png"></div>
+        <div><img src="img/nidorino.png"></div>
+        <div><img src="img/clafary.png"></div>
+        <div><img src="img/charmeleon.png"></div>
+        <div><img src="img/charmander.png"></div>
+        <div><img src="img/firething.png"></div>
+        <div><img src="img/jigglypuff.png"></div>
+        <div><img src="img/horsea.png"></div>
+        <div><img src="img/pidgey.png"></div>
+        <div><img src="img/wartortle.png"></div>
+      </div>
+    </section>
+  
+    <!-- include navigation buttons -->
+    <footer>
+      <nav class="navigation">
+        <a href="#selected" class="button">BACK</a>
+        <a href="map.html" class="button">MAP</a>
+        <a href="area.html" class="button">AREA</a>
+        <a href="#selected" class="button">NEXT</a>
+      </nav>
+    </footer>
+  </body>
 </html>
