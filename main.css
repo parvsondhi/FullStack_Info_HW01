@@ -123,7 +123,7 @@ div#poke_text {
 	border-radius: 15px;
 	border: 8px solid rgb(190, 88, 89);
 	padding: 25px;
-	width: 90%;
+	/* width: 90%; */
 	background-color: white;
 	font-size: 24px;
 }
