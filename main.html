@@ -5,18 +5,72 @@
 		<meta charset="UTF-8">
 		<title>pokedex</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="main.css" rel=stylesheet>
 		<!-- make sure to link to your css file -->
 	</head>
 
 	<body>
 		<!-- include a header tag -->
+		<header>
+			<button type="button">Dropdown</button>
+			<h1>Pokedex</h1>
+			<img class="gallery_pic"  src="assets/icons/pokeball_icon.png">
+		</header>
 
-		<!-- depending on how you structure your html, you should have 3 section tags -->
-			<!-- 1) search box -->
-			<!-- 2) selected pokemon: picture, property and description of pikachu -->
-			<!-- 3) other pokemon pictures in 2x6 format -->
+		<article>
 
-		<!-- include navigation buttons -->
+			<div id="searchbar">
+				<input id="searchbar" placeholder="Search Pokemon"></input>
+			</div>
+
+			<div id="selected_poke">
+
+				<img class="gallery_pic" id="selected_poke" src="assets/images/pikachu.png">
+
+				<div id="info_box">
+						<div id="info_box_head">
+							<h4>No. 001 Pikachu</h4>
+						</div>
+						<div id="info_box_property">
+							<ul>
+								<li>Electric type</li>
+								<li>Gentle temperment</li>
+								<li>Grasslands</li>
+							</ul>
+						</div>
+					</div>
+						<div id="poke_text">
+							<p>
+								Pickahu can be seen napping in a bright sunlight. It has two red dots
+								on its cheeks. By practicing html and css Pikachu can learn confusion.
+								Pikachu likes to steal computer chargers from sleeping college students.
+							</p>
+						</div>
+				</div>
+
+				<div id="gallery">
+					<img class="gallery_pic" src="assets/images/abra.png">
+					<img class="gallery_pic" src="assets/images/charmander.png">
+					<img class="gallery_pic" src="assets/images/charmeleon.png">
+					<img class="gallery_pic" src="assets/images/clafary.png">
+					<img class="gallery_pic" src="assets/images/firething.png">
+					<img class="gallery_pic" src="assets/images/jigglypuff.png">
+
+					<img class="gallery_pic" src="assets/images/nidorino.png">
+					<img class="gallery_pic" src="assets/images/pidgey.png">
+					<img class="gallery_pic" src="assets/images/pikachu.png">
+					<img class="gallery_pic" src="assets/images/vulpix.png">
+					<img class="gallery_pic" src="assets/images/wartortle.png">
+					<img class="gallery_pic" src="assets/images/whatisthat.png">
+				</div>
+
+		</article>
+		<nav>
+			<button type="button">BACK</button>
+			<button type="button">MAP</button>
+			<button type="button">AREA</button>
+			<button type="button">NEXT</button>
+		</nav>
 
 	</body>
 </html>
