@@ -80,13 +80,32 @@ section#container {
 }
 
 #selected_poke_container {
-	height: 300px;
+	height: 200px;
+}
+
+.info_text {
+	padding: 10px;
+	font-size: 24px;
 }
 
 #selected_poke {
 	width: 25%;
 	float: left;
-	display: inline-block;
+	/* display: inline; */
+	height: inherit;
+	padding-left: 20px;
+}
+
+img.selected {
+	height: 100%;
+}
+
+#info_box {
+	width: 66%;
+	float: left;
+	display: inline;
+	margin-top: 30px;
+	height: inherit;
 }
 
 #info_box_head {
@@ -98,12 +117,6 @@ section#container {
 #info_box_property {
 	width: inherit;
 	background-color: white;
-}
-
-#info_box {
-	width: 66%;
-	/* float: left; */
-	display: inline;
 }
 
 div#poke_text {
