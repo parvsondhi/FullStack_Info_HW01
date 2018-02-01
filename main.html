@@ -5,18 +5,84 @@
 		<meta charset="UTF-8">
 		<title>pokedex</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- make sure to link to your css file -->
+		<link rel="stylesheet" type="text/css" href="main.css">
+
 	</head>
 
 	<body>
 		<!-- include a header tag -->
-
+		<header>
+			<nav id="topnav">
+				<button id = "dropdown"><a href="#C5">Dropdown</a></button>
+				<span><h2> Pokedex</h2></span>
+				<img src="./assets/icons/pokeball_icon.png"> 
+			</nav>
+		</header>
+		<br><br><br><br> <!-- need a better spacer -->
 		<!-- depending on how you structure your html, you should have 3 section tags -->
 			<!-- 1) search box -->
+			<section id="search">
+				<p id="C1">Search Pokemon</p>
+				
+			</section>	
+			<br>
 			<!-- 2) selected pokemon: picture, property and description of pikachu -->
-			<!-- 3) other pokemon pictures in 2x6 format -->
-
+			<section id="selected-pokemon">
+				<div id= "selected-img">
+					<img src="./assets/images/pikachu.png">
+				</div>
+				<div id="selected-info">
+					<table>
+					  <tr>
+					  	<th id="C2">No. 001 Pikachu</th>
+					  </tr>
+					  <tr>
+					    <td id="C3">-Electric Type</td>
+					  </tr>
+					  <tr>
+					    <td id="C4">-Gentle Temperment</td>
+					  </tr>
+					  <tr>
+					    <td>-Grasslands</td>
+					  </tr>
+					</table>
+				</div>
+			</section>
+			<br>
+			<article> 
+					<p id="C5">
+						Pikachu can be seen napping in bright sunlight. It has two red dots on its cheeks. By practicing html and css Pikachu can learn confusion. Pikachu likes to steal computer chargers from sleeping college students.
+					</p>
+				</article>
+				<br><br>
+			<div>
+				<ul>
+					<li><img src="./assets/images/whatisthat.png"></li>
+					<li><img src="./assets/images/abra.png"></li>
+					<li><img src="./assets/images/vulpix.png"></li>
+					<li><img src="./assets/images/nidorino.png"></li>
+					<li><img src="./assets/images/clafary.png"></li>
+					<li><img src="./assets/images/charmeleon.png"></li>
+				</ul>
+				<ul>					
+					<li><img src="./assets/images/charmander.png"></li>
+					<li><img src="./assets/images/firething.png"></li>
+					<li><img src="./assets/images/jigglypuff.png"></li>
+					<li><img src="./assets/images/horsea.png"></li>
+					<li><img src="./assets/images/pidgey.png"></li>
+					<li><img src="./assets/images/wartortle.png"></li></ul>
+			</div>
 		<!-- include navigation buttons -->
+		<footer>
+			<nav>
+				<button><a href="#C1">BACK</a></button>
+				<button><a href="#C2">MAP</a></button>
+				<button><a href="#C3">AREA</a></button>
+				<button><a href="#C4">NEXT</a></button>
+			<nav>
+		</footer>
+			
+		</nav>
 
 	</body>
 </html>
