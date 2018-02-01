@@ -136,7 +136,7 @@ th {
   border: 8px solid #BD5858;
   padding: 40px;
 	background: white;
-	width: 900px;
+	width: 750px;
 }
 
 /*********   section   **********/
@@ -162,10 +162,16 @@ nav {
   bottom: 0;
 	*/
   width: 100%;
+	align-items: center;
 }
 
 .nav-button{
 	display: inline-block;
-	padding: 10px;
-	color: white;
+	padding: 8px;
+	color: black;
+	font-size: 1em;
+	border-radius: 8px;
+	background-color: #E4F0EF;
+	margin: 8px 2px;
+	width: 12%;
 }
