@@ -1,3 +1,5 @@
+/*----------------- CSS RESET ------------------*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -11,23 +13,65 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: auto;
+	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	max-width: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-html, body{
 
+body {
+	font-size: 18px;
+	font: 100%/150% calibri,helvetica,sans-serif;
 }
-
 /*********   header   **********/
 header {
+	width: 100%;
+	background-color: #4d94ff;
+	color: red;
+	height: 100px;
+	text-align: center;
+
+
+
+
 
 }
+
+.inheader {
+	display: inline-block;
+	color: white;
+	background: none;
+	/* margin-left:120px; */
+	/* margin-right:100px; */
+	width: 32%;
+}
+
 
 /*********   article   **********/
 article {
@@ -42,5 +86,81 @@ section {
 /*********   nav   **********/
 
 nav {
+	display:inline-block;
+	margin-right:auto;
+	margin-left: auto;
 
 }
+
+button{
+	margin: 20px;
+	background-color:grey;
+}
+
+p, span{
+    margin: 50px;
+    width: 80%;
+    border: 3px solid red;
+    padding: 10px;
+    font-size:20px;
+    background-color:white;
+    /* position: relative; */
+}
+span{
+	border: 3px solid grey;
+
+
+}	
+
+footer{
+	text-align: center;
+	background-color:blue;
+}
+.selected-pokemon{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+#list-skills{
+    margin: auto;
+    width: 40%;
+    border: 1px solid grey;
+    padding: 10px;
+    background: white;
+}
+
+#pikachu {
+	width: 20%;
+	display: inline-block;
+
+}
+
+#search-bar{
+	text-align: left;
+	height: 100px;
+	display: inline-grid;
+	width:100%;
+}
+
+#list-skills{
+	width: 20%;
+	display: inline-block;
+	text-align:left;
+}
+.grid-container {
+	display: table-row;
+	padding: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+    width: 16.2%;
+}
+
+.wrapper{
+	margin:0 auto;
+	width:80%;
+
+}
+
