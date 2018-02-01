@@ -5,18 +5,66 @@
 		<meta charset="UTF-8">
 		<title>pokedex</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- make sure to link to your css file -->
+		<link rel="stylesheet" type="text/css" href="main.css"><!-- make sure to link to your css file -->
 	</head>
 
 	<body>
 		<!-- include a header tag -->
-
+		<header>
+			<button type="button"><img id="hamburger" src="assets/icons/hamburger_icon.png" alt="dropdown"></button>
+			<div id="site-title"><h2>Pokedex</h2></div>
+			<img id="pokeball" src="assets/icons/pokeball_icon.png" alt="pokeball icon">
+		</header>
 		<!-- depending on how you structure your html, you should have 3 section tags -->
 			<!-- 1) search box -->
+			<div id="content">
+			<section id="search-box">
+				<input type="text" placeholder="Search Pokemon">
+			</section>
+
 			<!-- 2) selected pokemon: picture, property and description of pikachu -->
+			<section id="selected-pokemon">
+				<article>
+				
+					<img src="assets/images/pikachu.png" alt="pikachu">
+				
+					<div>
+						<h4><a name="pikachu">No. 001 Pikachu</a></h4>
+						<ul>- Electric Type</ul>
+						<ul>- Gentle temperament</ul>
+						<ul>- Grasslands</ul>
+					</div>
+				</article>
+				<p>
+					<span>Pikachu</span> can be seen napping in a bright sunlight. It has two red dots on its cheeks. 
+					By practicing html and css Pikachu can learn confusion. 
+					Pikachu likes to steal computer chargers from sleeping college students.
+				</p>
+			</section>
 			<!-- 3) other pokemon pictures in 2x6 format -->
-
+			<section id="other-pokemon">
+				<img src="assets/images/whatisthat.png" alt="Whatisthat">
+				<img src="assets/images/abra.png" alt="Abra">
+				<img src="assets/images/vulpix.png" alt="Vulpix">
+				<img src="assets/images/nidorino.png" alt="Nidorino">
+				<img src="assets/images/clefairy.png" alt="Clefairy">
+				<img src="assets/images/charmeleon.png" alt="Charmeleon">
+				<img src="assets/images/charmander.png" alt="Charmander">
+				<img src="assets/images/firething.png" alt="Firething">
+				<img src="assets/images/jigglypuff.png" alt="Jigglypuff">
+				<img src="assets/images/horsea.png" alt="Horsea">
+				<img src="assets/images/pidgey.png" alt="Pidgey">
+				<img src="assets/images/wartortle.png" alt="Wartortle">
+			</section>
+			</div>
 		<!-- include navigation buttons -->
-
+		<footer>
+			<nav>
+				<a><button type="button">BACK</button></a>
+				<a href="map.html"><button type="button">MAP</button></a>
+				<a href="area.html"><button type="button">AREA</button></a>
+				<a href="#pikachu"><button type="button">NEXT</button></a>
+			</nav>
+		</footer>
 	</body>
 </html>
