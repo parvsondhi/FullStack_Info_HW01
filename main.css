@@ -34,8 +34,8 @@ header {
 
 #dropdown {
 	float: left;
-	margin: 15px;
-	font-size: 16px;
+	margin: 10px;
+	font-size: 14px;
 }
 
 #site-title {
@@ -68,9 +68,11 @@ input {
 
 button {
 	width: 15%;
-	height: 80%;
-	margin: 20px;
-	font-size: 18px;
+	height: 60%;
+	margin-top: 10px;
+	margin-left: 50px;
+	border-radius: 25px;
+	font-size: 16px;
 }
 
 ul {
@@ -146,15 +148,19 @@ div#poke_text {
 }
 
 /*********   nav   **********/
-nav {
+#nav-container {
+	height: 50px;
+}
 
+nav {
+	height: 100%;
 }
 
 /*********   colors   **********/
-.red {
+.poke_red {
   background-color: rgb(190, 88, 89);
 }
 
-.blue {
+.poke_blue {
 	background-color: rgb(94, 143, 204);
 }
