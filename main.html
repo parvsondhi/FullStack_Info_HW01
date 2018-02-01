@@ -13,7 +13,9 @@
 			<nav id="navigation">
 				<img id="hamburger" src="assets/icons/hamburger_icon.png" alt="Hamburger Icon">
 				<h2 id="site-title">Pokedex</h2>
-				<img id="pokeball" src="assets/icons/pokeball_icon.png" alt="Pokeball Icon">			
+				<a href = "https://www.pokemon.com/us/">
+					<img id="pokeball" src="assets/icons/pokeball_icon.png" alt="Pokeball Icon">	
+				</a>		
 			</nav>
 		</header>
 
@@ -23,19 +25,20 @@
 			</form>
 		</section>
 
-		<section>
-			<img id = "pikachu" src = "assets/images/pikachu.png" alt="Pikachu">
-			<div id = "info">
-				<h4 id="pokemon">No.001 Pikachu</h4>
-				<ul id = "attributes" style="list-style-type:none">
-					<li>- Electric Type</li>
-					<li>- Gentle Temperment</li>
-					<li>- Grasslands</li>
-				</ul>
-			</div>
-			<p id = "description">Pikachu can be seen napping in bright sunlight. It has two red dots on its cheeks. By practicing HTML and CSS Pikachu can learn confusion. Pikachu likes to steal computer chargers from sleeping college students.</p>
-		</section>	
-
+		<article>
+			<section>
+				<img id = "pikachu" src = "assets/images/pikachu.png" alt="Pikachu">
+				<span id = "info">
+					<h4 id="pokemon">No.001 Pikachu</h4>
+					<ul id = "attributes" style="list-style-type:none">
+						<li>- Electric Type</li>
+						<li>- Gentle Temperment</li>
+						<li>- Grasslands</li>
+					</ul>
+				</span>
+				<p id = "description">Pikachu can be seen napping in bright sunlight. It has two red dots on its cheeks. By practicing HTML and CSS Pikachu can learn confusion. Pikachu likes to steal computer chargers from sleeping college students.</p>
+			</section>	
+		</article>
 		<section class = "pokemon-list">
 			<div class = "column">
 				<img src="assets/images/whatisthat.png" alt="What Is That">
@@ -76,10 +79,10 @@
 		</section>
 
 		<footer>
-			<button type="button">BACK</button>
-			<button type="button">MAP</button>
-			<button type="button">AREA</button>
-			<button type="button">NEXT</button>
+			<button type="button"><a href="#site-title">BACK</a></button>
+			<button type="button"><a href="map.html">MAP</a></button>
+			<button type="button"><a href="area.html">AREA</a></button>
+			<button type="button"><a href="#searchbar">NEXT</a></button>
 		</footer>
 	</body>
 </html>
