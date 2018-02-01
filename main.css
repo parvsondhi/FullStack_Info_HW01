@@ -66,13 +66,20 @@ input {
 	width: 94%;
 }
 
+button {
+	width: 15%;
+	height: 80%;
+	margin: 20px;
+	font-size: 18px;
+}
+
 ul {
 	list-style: none;
 }
 
 /*********   section   **********/
 section {
-
+	margin-bottom: 10px;
 }
 section#container {
 	background-image: url('assets/backgrounds/background_home.png');
@@ -80,11 +87,12 @@ section#container {
 }
 
 #selected_poke_container {
-	height: 200px;
+	height: 250px;
+	overflow: hidden;
 }
 
 .info_text {
-	padding: 10px;
+	padding: 20px;
 	font-size: 24px;
 }
 
@@ -122,10 +130,19 @@ img.selected {
 div#poke_text {
 	border-radius: 15px;
 	border: 8px solid rgb(190, 88, 89);
-	padding: 25px;
+	margin-top: 20px;
+	padding: 40px;
 	/* width: 90%; */
 	background-color: white;
 	font-size: 24px;
+	width: 80%;
+}
+
+.gallery_pic {
+	width: 15%;
+	border: solid 1px black;
+	/* margin: -2px; */
+
 }
 
 /*********   nav   **********/
