@@ -6,17 +6,95 @@
 		<title>pokedex</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- make sure to link to your css file -->
+		<link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 
-	<body>
-		<!-- include a header tag -->
+	<body background="assets/backgrounds/background_home.png">
+		<div class="wrapper">
+			<!-- include a header tag -->
+			<header>
+				<div class="inheader2">
+					<div class="inheader">
+						<a class="nav-button" href="#foooter">
+							<button type="button">Dropdown</button>
+						</a>					
+					</div>
+					<div class="inheader">
+						<h2 id="site-title">Pokedex</h2>
 
-		<!-- depending on how you structure your html, you should have 3 section tags -->
-			<!-- 1) search box -->
-			<!-- 2) selected pokemon: picture, property and description of pikachu -->
-			<!-- 3) other pokemon pictures in 2x6 format -->
+					</div>
+					<div class="inheader">
+						<img id="pokeball" src="assets/icons/pokeball_icon.png">	
+					</div>
+					
+													
+				</div>
 
-		<!-- include navigation buttons -->
+			</header>
 
+			<section id="search-bar">
+	  				<span> Search </span>
+	
+			</section>
+
+			<!-- depending on how you structure your html, you should have 3 section tags -->
+				<!-- 1) search box -->
+				<!-- 2) selected pokemon: picture, property and description of pikachu -->
+			<section id="selected-pokemon">
+				<img id="pikachu" src="assets/images/pikachu.png">
+				<div id="list-skills">
+				<h3>
+					No. 001 Pikachu
+				</h3>	
+				
+					<ol>
+				      <li> Electric type  </li>
+				      <li> Gentle temperment</li>
+				      <li> Grassland</li>
+				    </ol>
+				    
+				</div>
+				<p>
+					Pickahu can be seen napping in a bright sunlight. It has two red dots
+					on its cheeks. By practicing htmlt and css Pikachu can learn confusion. 
+					Pikachu likes to steal computer chargers from sleeping college students
+				</p>
+
+
+			</section>
+				<!-- 3) other pokemon pictures in 2x6 format -->
+			<section class="grid-container"> 
+				<img src="assets/images/whatisthat.png" class="grid-item">
+				<img src="assets/images/abra.png" class="grid-item">
+				<img src="assets/images/vulpix.png" class="grid-item">
+				<img src="assets/images/nidorino.png" class="grid-item">
+				<img src="assets/images/jigglypuff.png" class="grid-item">
+				<img src="assets/images/charmeleon.png" class="grid-item">
+				<img src="assets/images/charmander.png" class="grid-item">
+				<img src="assets/images/firething.png" class="grid-item">
+				<img src="assets/images/clafary.png" class="grid-item">
+				<img src="assets/images/horsea.png" class="grid-item">
+				<img src="assets/images/pidgey.png" class="grid-item">
+				<img src="assets/images/wartortle.png" class="grid-item">
+			</section>
+
+			<!-- include navigation buttons -->
+			<footer id="foooter">
+				<nav>
+					<a class="nav-button" href="#list-skills">
+						<button type="button">BACK</button>
+					</a>
+					<a class="nav-button" href="#pikachu">
+						<button type="button">MAP</button>
+					</a>
+					<a class="nav-button" href="#search-bar">
+						<button type="button">AREA</button>
+					</a>
+					<a class="nav-button" href="#selected-pokemon">
+						<button type="button">NEXT</button>
+					</a>
+				</nav>
+			</footer>
+		</div>
 	</body>
 </html>
