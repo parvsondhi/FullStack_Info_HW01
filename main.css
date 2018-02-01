@@ -21,26 +21,119 @@ time, mark, audio, video {
 }
 
 html, body{
-
+	font-family: "Verdana";
+	font-size: 30px;
+	background: url("assets/backgrounds/background_home.png");
 }
 
 /*********   header   **********/
 header {
+	width: 100%;
+	background-color: #CB4952;
+	display: inline-block;
+}
+
+#site-title {
+	margin-top: 25px;
+	text-align: center;
+	display: inline-block;
+	font-family: "Verdana";
+	color: #ffffff;
+	font-size: 150%;
+}
+
+
+#navigation {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+#pokeball {
+	float: right;
+	margin-right: 5%;
+}
+
+#hamburger {
+	height: 80px;
+	width: 80px;
+	float: left;
+	margin-left: 5%;
+}
+
+#searchbar {
+	width: 80%;
+	height:45px;
+	font-size: 100%;
+	padding-left: 30px;
+}
+form {
+	margin-top: 40px;
+}
+
+#pokemon {
+	background-color: #558DCF;
+	font-size: 40px;
+	color: white;
+	padding-left: 40px;
+}
+
+#info {
+	width: 60%;
+	height: 230px;
+	border: 2px solid black;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 70px;
+	float: right;
+	margin-right: 10%;
+}
+
+#description {
+	border-radius: 25px;
+	border: 10px solid #CB4952;
+	padding: 20px;
+	width: 80%;
+	height: 150px;
 
 }
 
-/*********   article   **********/
-article {
+#pikachu {
+	padding: 40px;
+	margin-left: 5%;;
+}
+
+#attributes {
+	padding: 40px;
+	background-color: white;
+}
+
+.pokemon-list {
+	margin: 40px;
+	margin-left: 8%;
+}
+.column{
+	display: block;
+	float: left;
+	border: 2px solid black;
+}
+
+footer {
+	display: inline-block;
+	width: 100%;
+	height:80px;
+	background-color: #558DCF;
+	text-align: center;
 
 }
 
-/*********   section   **********/
-section {
-
+button {
+	margin-top: 20px;
+	font-size: 30px;
+	border-radius: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
-/*********   nav   **********/
-
-nav {
-
-}
