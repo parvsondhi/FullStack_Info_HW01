@@ -18,14 +18,33 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 	max-width: none;
+	font-family: Gill Sans;
+
 }
 
 html, body{
 
 }
 
+body{
+	background-image: url("assets/backgrounds/background_home.png");
+}
+ 
+
 /*********   header   **********/
 header {
+	width: 100%;
+	background: #CD5C5C;
+	color: #ffffff;
+	height: 70px;
+
+}
+
+footer{
+	width: 100%;
+	background: #4d94ff;
+	color: #ffffff;
+	height: 70px;
 
 }
 
@@ -42,5 +61,143 @@ section {
 /*********   nav   **********/
 
 nav {
+	display: inline;
 
 }
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+
+}
+
+button{
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 8px;
+}
+
+.pokemon-imgs{
+	display: inline-block;
+}
+
+#tittle
+{
+	text-align: center; 
+	width: 80%;
+	font-size: 150%;
+	display: inline-block;
+	margin-top: 15px;
+	
+}
+
+#header-icon{
+	float: right;
+	display: inline-block;
+	
+	height: 70%;
+	margin-top: 15px;
+}
+
+#navigation{
+	margin-left: 10px;
+}
+
+input {
+	width: 100%;
+	padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#search-box{
+	padding: 1em;
+	font-size: 16px;
+}
+
+#selected-description{
+	border: 1px solid #adadad;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 40%;
+	height: 100%;
+	font-size: 16px;
+	margin-bottom: 10px;
+	position: relative;
+   	bottom: 30px;
+}
+
+#selected-description p{
+	background: #4d94ff;
+	font-size: 20px;
+	padding-left: 30px;
+	color: white;
+	padding: 10px 10px 10px 30px;
+}
+
+#selected-description ul{
+	background: white;
+	
+	padding: 20px 20px 20px 40px;
+}
+
+#selected-pokemon{
+	display: inline-block;
+	font-size: 16px;
+
+}
+
+#selected-icon{
+	display: inline-block;
+	margin: 16px;
+
+
+
+}
+
+#selected-icon img{
+	width: 70%;
+	height: 70%;
+}
+
+#description{
+	border: 5px solid #CD5C5C;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 1em;
+    margin: 40px;
+    background: white;
+    padding: 20px 100px 20px 100px;
+
+}
+
+.pokemon-imgs{
+	display: inline-block;
+	width: 16%;
+
+	
+}
+
+.pokemon-imgs img{
+	width: 100%;
+	object-fit: contain;
+
+
+}
+
+#footer-navigation{
+	display: inline-block;
+	width: 100%;
+}
+
+#footer-navigation button{
+	margin: 20px 80px 20px 80px;
+	display: inline-block;
+	width: 150px;
+	padding: 0px 1px 0px 1px;
+
+
+}
+
+
