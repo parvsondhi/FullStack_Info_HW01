@@ -21,12 +21,36 @@ time, mark, audio, video {
 }
 
 html, body{
-
+    background-image: url("assets/backgrounds/background_home.png");
+    font-family: "Gill Sans";
 }
 
 /*********   header   **********/
 header {
+    background-color: #BF5C5B;
+    position: relative;
+    text-align: center;
+}
 
+#hamburgernav {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    padding-right: 10%;
+}
+
+#pokeball {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: left;
+    padding-left: 10%;
+}
+
+header h1 {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
 }
 
 /*********   article   **********/
@@ -39,8 +63,105 @@ section {
 
 }
 
+#selectedpokemon {
+    padding-left: 20px;
+}
+
+#searchbox{
+    padding-top: 5px;
+    font-size: 20px;
+    display: block;
+    padding-left: 20px;
+    width: 90%;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+}
+.pokemonpic {
+    width: 100px;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+#input {
+    display: block;
+}
+
+#property {
+    display: inline-block;
+    padding-left: 40px;
+    padding-top: 20px;
+    height: 100px;
+    width: 60%;
+}
+
+#number {
+    color: white;
+    background-color: #5A8AC1;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid gray;
+}
+
+#poketype {
+    background-color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid gray;
+}
+
+#description {
+    background-color: white;
+    display: block;
+    margin-top: 40px;
+    margin-right: 20px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 7px solid #BF5C5B;
+    margin-bottom: 20px;
+}
+
+#otherpokemon {
+    display: inline-block;
+}
+
+.pokemonpicother {
+    width: 15%;
+    display: inline-block;
+    background-color: white;
+    border: 2px solid gray;
+}
+
 /*********   nav   **********/
 
 nav {
+    display: inline-block;
+}
 
+button {
+    margin-top: 20px; 
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 18%;
+    height: auto;
+}
+
+footer {
+    background-color: #5A8AC1;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+footer button{
+    display: inline-block;
 }
