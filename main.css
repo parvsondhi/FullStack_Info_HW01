@@ -24,23 +24,127 @@ html, body{
 
 }
 
+body {
+	background-image: url("assets/backgrounds/background_home.png");
+}
+
+a {
+	text-decoration: none;
+}
+
 /*********   header   **********/
 header {
+	background-color: #a44;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
 
+header h1 {
+	position: relative;
+	font-size: 50px;
+	font-weight: 700;
+	color: #fff;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#dropdown {
+	float: left;
+	margin: -20px 20px;
+	font-size: 20px;
+}
+
+#pokeball {
+	float: right;
+	margin: -50px 20px;
+}
+
+#searchpokemon {
+	margin: 10px;
+	padding: 10px;
+	font-size: 15px;
+	width: 89%;
+	border: 1px solid black;
+	border-radius: 3px;
 }
 
 /*********   article   **********/
-article {
 
+#pikachu {
+	margin: 30px;
+	width: 20%;
+}
+
+article {
+	position: relative;
+	width: 70%;
+	display: inline-block;
+	top: 50%;
+	transform: translateY(-40%);
+}
+
+article h2 {
+	background-color: #59f;
+	height: 50px;
+	color: #fff;
+	font-size: 30px;
+	padding: 3px 35px;
+}
+
+article ul {
+	background-color: #fff;
+	padding: 25px;
+	list-style: none;
+}
+
+article ul li:before {
+	content: "- ";
+}
+
+article ul li {
+	margin: 0 30px;
+	font-size: 20px;
 }
 
 /*********   section   **********/
 section {
+	margin: 10px;
+	background-color: #fff;
+	border: 7px solid #a44;
+	border-radius: 10px;
+}
 
+section p {
+	margin: 10px;
+}
+
+p span {
+	color: #eec;
+	font-weight: 700;
+}
+
+div {
+	width: 100%;
+}
+
+div img {
+	border: 1px solid black;
+	width: 15%;
 }
 
 /*********   nav   **********/
 
 nav {
+	background-color: #59f;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
 
+.footerbutton {
+	margin: 40px 10px;
+	width: 15%;
+	font-size: 20px;
+	border-radius: 5px;
 }
