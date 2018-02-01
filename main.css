@@ -18,6 +18,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 	max-width: none;
+	font-family: Gill Sans;
 }
 
 html, body{
@@ -26,12 +27,134 @@ html, body{
 
 /*********   header   **********/
 header {
+	font-family: Gill Sans;
+	font-weight: bold;
+	color: white;
+	background-color: #BD5858;
+	width: 80%;
+	box-sizing: border-box;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+}
 
+.pokeball{
+	float: right;
+	height: 40px;
+	position: relative;
+	bottom: 55px;
+	right: 20px;
+}
+
+.site-title{
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+	margin: 0, auto;
+	position: relative;
+	right: 50px;
+}
+
+.dropdown{
+	font-family: Gill Sans;
+	font-size: 20px;
+	float: left;
+	margin: 20px 0px 20px 20px;
+	padding: 1px 15px;
+	border-radius: 5px;
+}
+
+.search-box {
+	margin-top: -10px;
+}
+
+
+.search-pokemon{
+	width: 90%;
+	background-color: white;
+	font-size: 20px;
+	margin: 0px 0px 15px 30px;
+	padding: 5px;
+	border: 2px solid gray;
+}
+
+
+.main-display{
+	height: 50px;
+	display: inline-block;
+}
+
+.main-display img{
+	height: 180px;
+	max-width: auto;
+	margin: 0px 0px 10px 40px;
+}
+
+.main-stats{
+	float: right;
+	width: 70%;
+	height: 180px;
+	background-color: white;
+	border: 1px solid gray;
+	display: inline-block;
+	margin-right: 30px
+}
+
+.main-stats h2{
+	background-color: #5D90CB;
+	color: white;
+	font-size: 25px;
+	padding: 10px 0px 10px 20px;
+}
+
+.main-stats p{
+	margin: 20px;
+	font-size: 25px;
+	padding: 0px 0px 0px 20px;
+}
+
+.main-description{
+	display: block;
+	background-color: white;
+	border: 10px solid #BD5858;
+	font-size: 25px;
+	border-radius: 15px;
+	margin: 10px 10px 10px 20px;
+
+}
+
+.main-description p{
+	padding: 25px;
+}
+
+.grid-section {
+	margin-top: 40px;
+	width: 900px;
+	position: relative;
+	right: 30px;
+	font-size: 0px;
+
+}
+
+.grid-section img {
+	display: inline-block;
+	width: 120px;
+	margin: 0 auto;
+	border: 2px solid black;
+	padding:0;
+}
+
+.grid-pictures{
+	width: 800px;
 }
 
 /*********   article   **********/
 article {
-
+	background-image: url(./assets/backgrounds/background_home.png);
+	background-size: contain;
+	padding: 0px 0px 0px 0px;
+	width: 80%;
+	height: 820px;
 }
 
 /*********   section   **********/
@@ -42,5 +165,20 @@ section {
 /*********   nav   **********/
 
 nav {
+	background-color: #5D90CB;
+	width: 80%;
+	height: 100px;
+	position: relative;
+	bottom: 100px;
+	margin: auto;
+}
 
+.nav-button{
+	background-color: white;
+	display: inline-block;
+	padding: 5px 20px;
+	margin: 30px 40px 0px 40px;
+	border-radius: 5px;
+	font-size: 25px;
+	text-decoration: none;
 }

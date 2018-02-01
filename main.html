@@ -5,16 +5,70 @@
 		<meta charset="UTF-8">
 		<title>pokedex</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="main.css">
 		<!-- make sure to link to your css file -->
 	</head>
 
 	<body>
 		<!-- include a header tag -->
+		<header>
+			<button type="button" class="dropdown">Dropdown</button>
+			<h1 class="site-title">Pokedex</h1>
+			<img class="pokeball" src="./assets/icons/pokeball_icon.png">
+		</header>
 
 		<!-- depending on how you structure your html, you should have 3 section tags -->
+		<article>
 			<!-- 1) search box -->
+			<section class="search-box">
+				<input class ="search-pokemon" type="text" placeholder="Search Pokemon">
+			</section>
+
 			<!-- 2) selected pokemon: picture, property and description of pikachu -->
+			<section>
+				<div class="main-display">
+					<img src="./assets/images/pikachu.png">
+				</div>
+
+				<div class="main-stats">
+					<h2>No. 001 Pikachu</h2> 
+					<p>- Electric type<br>- Gentle temperment<br>- Grasslands</p>
+				</div>
+
+				<div class="main-description">
+					<p>Pikachu can be seen napping in a bright sunlight. It has two red dots on its cheeks. By practicing html and css Pikachu can learn confusion. Pikachu likes to steal computer chargers from sleeping college students.</p>
+				</div>
+
+			</section>
+
 			<!-- 3) other pokemon pictures in 2x6 format -->
+			<section class="grid-section">
+				<div class="grid-pictures">
+					<img src="./assets/images/whatisthat.png">
+					<img src="./assets/images/abra.png">
+					<img src="./assets/images/vulpix.png">
+					<img src="./assets/images/nidorino.png">
+					<img src="./assets/images/clafary.png">
+					<img src="./assets/images/charmeleon.png">
+				</div>
+
+				<div class="grid-pictures">
+					<img src="./assets/images/charmander.png">
+					<img src="./assets/images/firething.png">
+					<img src="./assets/images/jigglypuff.png">
+					<img src="./assets/images/horsea.png">
+					<img src="./assets/images/pidgey.png">
+					<img src="./assets/images/wartortle.png">
+				</div>
+
+			</section>
+		</article>	
+			<nav>
+				<a class="nav-button" href="#">BACK</a>
+				<a class="nav-button" href="#">MAP</a>
+				<a class="nav-button" href="#">AREA</a>
+				<a class="nav-button" href="#">NEXT</a>
+			</nav>
 
 		<!-- include navigation buttons -->
 
