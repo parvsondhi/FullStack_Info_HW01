@@ -21,12 +21,39 @@ time, mark, audio, video {
 }
 
 html, body{
-
+	font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
 }
+
 
 /*********   header   **********/
 header {
+	text-align: center;
+	box-sizing: border-box;
+	height: 50px;
+}
 
+#dropdown {
+	float: left;
+	margin: 10px;
+	font-size: 14px;
+}
+
+#site-title {
+	font-size: 36px;
+	color: white;
+	border: 15px;
+	width: 25%;
+	vertical-align: middle;
+	font-weight: 700;
+	font-size: 24px;
+	display: inline;
+}
+
+img#logo {
+	width: 48px;
+	display: inline;
+	margin: 0px;
+	float: right;
 }
 
 /*********   article   **********/
@@ -34,13 +61,111 @@ article {
 
 }
 
+input {
+	margin: 15px;
+	width: 94%;
+}
+
+button {
+	width: 15%;
+	height: 60%;
+	margin-top: 10px;
+	margin-left: 50px;
+	border-radius: 25px;
+	font-size: 16px;
+}
+
+ul {
+	list-style: none;
+}
+
 /*********   section   **********/
 section {
+	margin-bottom: 10px;
+}
+section#container {
+	background-image: url('assets/backgrounds/background_home.png');
+	background-size: cover;
+}
 
+#selected_poke_container {
+	height: 250px;
+	overflow: hidden;
+	width: 80%;
+}
+
+.info_text {
+	padding: 20px;
+	font-size: 24px;
+}
+
+#selected_poke {
+	width: 25%;
+	float: left;
+	/* display: inline; */
+	height: inherit;
+	/* padding-left: 60px; */
+}
+
+img.selected {
+	height: 100%;
+}
+
+#info_box {
+	width: 66%;
+	float: left;
+	display: inline;
+	height: inherit;
+}
+
+#info_box_head {
+	background-color: rgb(94, 143, 204);
+	color: white;
+	margin-top: 40px;
+	width: inherit;
+}
+
+#info_box_property {
+	width: inherit;
+	background-color: white;
+}
+
+div#poke_text {
+	border-radius: 15px;
+	border: 8px solid rgb(190, 88, 89);
+	margin-top: 20px;
+	padding: 30px;
+	margin-bottom: 20px;
+	/* width: 90%; */
+	background-color: white;
+	font-size: 24px;
+	width: 80%;
+}
+
+.gallery_pic {
+	width: 16%;
+	border: solid 1px black;
+	/* margin: -2px; */
+}
+
+#gallery {
+	width: 100%;
 }
 
 /*********   nav   **********/
+#nav-container {
+	height: 50px;
+}
 
 nav {
+	height: 100%;
+}
 
+/*********   colors   **********/
+.poke_red {
+  background-color: rgb(190, 88, 89);
+}
+
+.poke_blue {
+	background-color: rgb(94, 143, 204);
 }

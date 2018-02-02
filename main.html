@@ -5,18 +5,83 @@
 		<meta charset="UTF-8">
 		<title>pokedex</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- make sure to link to your css file -->
+		<link href="main.css" rel=stylesheet>
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet'>
+
 	</head>
 
 	<body>
-		<!-- include a header tag -->
+		<header class="poke_red">
+				<button type="button" id="dropdown">Dropdown</button>
+				<p id='site-title'>Pokedex</p>
+				<img id="logo" src="assets/icons/pokeball_icon.png">
+		</header>
 
-		<!-- depending on how you structure your html, you should have 3 section tags -->
-			<!-- 1) search box -->
-			<!-- 2) selected pokemon: picture, property and description of pikachu -->
-			<!-- 3) other pokemon pictures in 2x6 format -->
+		<section id="container">
+			<section id="searchbar">
+				<input id="searchbar" placeholder="Search Pokemon"></input>
+			</section>
 
-		<!-- include navigation buttons -->
+			<section id="selected_poke_container">
+
+				<div id="selected_poke">
+					<img class="selected" src="assets/images/pikachu.png">
+				</div>
+
+				<div id="info_box">
+						<div id="info_box_head">
+							<h4 class="info_text">No. 001 Pikachu</h4>
+						</div>
+						<div id="info_box_property">
+							<ul class="info_text">
+								<li>  - Electric type</li>
+								<li>  - Gentle temperment</li>
+								<li>  - Grasslands</li>
+							</ul>
+						</div>
+					</div>
+			</section>
+
+			<section>
+
+					<div id="poke_text">
+						<p>
+							Pickahu can be seen napping in a bright sunlight. It has two red dots
+							on its cheeks. By practicing html and css Pikachu can learn confusion.
+							Pikachu likes to steal computer chargers from sleeping college students.
+						</p>
+					</div>
+				</div>
+
+			</section>
+
+
+				<section id="gallery-container">
+					<div id="gallery">
+						<img class="gallery_pic" src="assets/images/abra.png">
+						<img class="gallery_pic" src="assets/images/charmander.png">
+						<img class="gallery_pic" src="assets/images/charmeleon.png">
+						<img class="gallery_pic" src="assets/images/clafary.png">
+						<img class="gallery_pic" src="assets/images/firething.png">
+						<img class="gallery_pic" src="assets/images/jigglypuff.png">
+						<img class="gallery_pic" src="assets/images/nidorino.png">
+						<img class="gallery_pic" src="assets/images/pidgey.png">
+						<img class="gallery_pic" src="assets/images/horsea.png">
+						<img class="gallery_pic" src="assets/images/vulpix.png">
+						<img class="gallery_pic" src="assets/images/wartortle.png">
+						<img class="gallery_pic" src="assets/images/whatisthat.png">
+					</div>
+				</section>
+
+				<footer id="nav-container">
+					<nav class="poke_blue">
+						<button type="button">BACK</button>
+						<button type="button">MAP</button>
+						<button type="button">AREA</button>
+						<button type="button">NEXT</button>
+					</nav>
+				</section>
+			</section>
 
 	</body>
 </html>
