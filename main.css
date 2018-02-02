@@ -26,21 +26,115 @@ html, body{
 
 /*********   header   **********/
 header {
-
+	background-color: #BF5C5B;
+	display: inline-block;
+	width: 100%;
+	height: 60px;
 }
 
 /*********   article   **********/
 article {
-
+	display: inline-block;
 }
 
 /*********   section   **********/
 section {
-
+	background-image: url("assets/backgrounds/background_home.png");
 }
 
 /*********   nav   **********/
 
 nav {
 
+}
+
+footer {
+	background-color: #5A8AC1;
+}
+
+input {
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+button {
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+#title {
+	color: white;
+	text-align: center;
+	padding-left: 3%;
+	padding-right: 3%;
+	font-size: 24px;
+	padding-top: 20px;
+}
+
+#pokeball {
+	display: inline-block;
+	height: 50px;
+	position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+#type {
+	background-color: white;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 2px solid gray;
+}
+#number {
+	color: white;
+	background-color: #5A8AC1;
+	border: 2px solid gray;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+#info {
+    display: inline-block;
+    padding-left: 40px;
+    padding-top: 20px;
+    height: 100px;
+    width: 60%;
+}
+
+#dropdown {
+	position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+#para {
+	background-color: white;
+	border: 5px solid #BF5C5B;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 25px;
+	margin-top: 40px;
+}
+
+#searchbar {
+	padding-top: 10px;
+}
+#selectedimg {
+	padding-top: 20px;
+	padding-left: 10px;
+	width: 25%;
+}
+
+.pokeimg {
+	width: 15%;
+	border: 1px solid gray;
+}
+
+#nav-button {
+	margin: 4%
 }
