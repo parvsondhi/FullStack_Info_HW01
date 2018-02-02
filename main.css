@@ -1,3 +1,7 @@
+
+/*******  DAVID HUH    *******/
+/*******  HOMEWORK #1  *******/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,26 +25,138 @@ time, mark, audio, video {
 }
 
 html, body{
-
+	background-image: url("assets/backgrounds/background_home.png");
 }
 
 /*********   header   **********/
 header {
-
+	padding-top: 15px;
+	height: 50px;
+	background-color: indianred;
 }
 
 /*********   article   **********/
 article {
-
+	font-family: Verdana;
 }
 
 /*********   section   **********/
 section {
-
+	text-align: center;
+	margin-top: 5px;
+	font-family: Arial;
 }
 
 /*********   nav   **********/
 
 nav {
+	height: 70px;
+	vertical-align: middle;
+	background-color: cornflowerblue;
+}
 
+.menu {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.button {
+	display: inline-block;
+	margin:0 15px;
+	float: left;
+	padding-left: 15px;
+}
+.title {
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+	font-size: 14pt;
+	font-weight: bold;
+	margin:0 15px;
+}
+
+.pokeball {
+	display: inline-block;
+	vertical-align: middle;
+	margin:0 15px;
+	float: right;
+	padding-right: 15px;
+}
+
+.pikachu-image {
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	vertical-align: top;
+}
+
+.pikachu-image img {
+	width: 100px;
+}
+
+.pikachu-overview {
+	display: inline-block;
+	width: 65%;
+	height: 90px;
+}
+
+.pikachu-title {
+	background-color: cornflowerblue;
+	color: white;
+	text-align: left;
+	border: 0.5px solid black;
+	font-size: 16pt;
+	padding-left: 25px;
+	height: 30px;
+	padding-top: 5px;
+}
+
+.pikachu-description {
+	background-color: white;
+	vertical-align: middle;
+	text-align: left;
+	border: 0.5px solid black;
+	padding-left: 20px;
+	padding-top: 15px;
+	height: 75%;
+}
+
+.pikachu-story {
+	background-color: white;
+	text-align: center;		
+	margin-top: 20px;
+	border: 7px solid indianred;
+	width: 85%;
+	border-radius: 14px;
+	padding: 20px;
+}
+
+.pokemon-image-parent {
+	font-size: 0;
+	margin-top: 20px;
+}
+
+.pokemon-image {
+	display: inline-block;
+	width: 16%;
+}
+
+.pokemon-image img {
+	border: solid black 1px;
+	width: 100%;
+}
+
+.bottom-nav {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+}
+.bottom-nav-button {
+	display: inline-block;
+	padding-top: 20px;
+	width: 20%;
+	vertical-align: middle;
 }
