@@ -21,22 +21,55 @@ time, mark, audio, video {
 }
 
 html, body{
+	background-image: url("assets/backgrounds/background_home.png");
+    width: 100%
+	padding:0;
+    margin:0;
 
 }
 
 /*********   header   **********/
 header {
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	box-sizing: border-box;
+	background-color: #A52A2A;
+	font-size: 30px;
+}
 
+footer{
+	position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:rgb(69, 189, 255);
 }
 
 /*********   article   **********/
 article {
-
+	padding-top: 30px;
+	width: 40%;
+	position: absolute;
 }
 
+.hamburger-nav {
+	size: 25%;
+	position: relative;
+	float: left;
+}
+
+.pokeball-nav {
+	size: 5em;
+	position: absolute;
+	right: 10px;
+	top: 0px;
+
+}
 /*********   section   **********/
 section {
-
+	padding: 2em;
 }
 
 /*********   nav   **********/
@@ -44,3 +77,83 @@ section {
 nav {
 
 }
+
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+
+.grid-item {
+	display: inline-block;
+	width: 15%;
+}
+
+.grid-item img {
+	width: 100%;
+	height: 10em;
+	object-fit: contain;
+	position: relative;
+	outline-style: solid;
+
+
+}
+
+p.description {
+	text-align: center;
+	outline-style: solid;
+	object-fit: contain;
+	outline-width: 5px;
+	outline-color: #A52A2A;
+	background-color: white;
+	position: relative;
+	width: 50%
+}
+
+.blue-box {
+	object-fit: contain;
+	outline-style: solid;
+	outline-width: 2px;
+	text-align: center;
+	width: 40%;
+    position: absolute;
+    right:80px;
+    top: 150px;
+    padding-top: 0;
+
+}
+
+.pikachu {
+	position: relative;
+	left: 80px;
+	size: 50%;
+	display:inline-block;
+}
+
+.blue-box h1 {
+	background-color: #2b96c0;
+
+}
+
+
+ul.a {
+	list-style-type: square;
+}
+
+#background {
+	width: 100%;
+	position: absolute;
+
+}
+
+#searchbox {
+
+}
+
+#site-title {
+	width: 50%;
+	text-align: center;
+	color: white;
+	font-family: Gill Sans;
+}
+
