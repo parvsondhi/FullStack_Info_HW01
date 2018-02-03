@@ -3,20 +3,72 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>pokedex</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- make sure to link to your css file -->
+		<title>Pokedex</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 
 	<body>
-		<!-- include a header tag -->
+		<header>
+                        <div>
+                                <button class="left" type=button>Dropdown</button>
+                        </div>
+                        <div>
+                                <h1 id="site-title" class="center">Pokedex</h1>
+                        </div>        
+                        <div>        
+                                <img class="right" id="pokeball" src="assets/icons/pokeball_icon.png">
+		        </div>
+                </header>
+                <div></div>
+                <span></span>
+		
+                <section id="middle">
+                       <div class="center"> 
+                                <input class="wide" type="text" name="searchbox" value="Search Pokemon"></input>
+                       </div>
+                       <div id="ppic-container">
+                                <img id="ppic" src="assets/images/pikachu.png">
+                       </div>
+                       <div id="pdetail">
+                               <table>
+                                        <tr><th>No001 Pikachu</th></tr>                           
+                                        <div id="pattribs">
+                                        <tr><td><ul>
+                                                <li>Electric Type</li>
+                                                <li>Gentrle Temperment</li>
+                                                <li>Grasslands</li>
+                                        </tr></td></ul>
+                                        </div>
+                               </table>
+                       </div>
+                               <div id="pdesc" class="center">
+                                        Pikachu can be seen napping in a bright sunlight. It has two red dots on its cheeks. By practicing html and css Pikachu can learn confusion. Pikachu likes to steal computer chargers from sleeping college students.
+                               </div>
+                </section>
+                
+                <section class="other-pmon">
+                	<img src="assets/images/abra.png">
+			<img src="assets/images/charmander.png">
+			<img src="assets/images/charmeleon.png">
+			<img src="assets/images/clafary.png">
+			<img src="assets/images/firething.png">
+			<img src="assets/images/horsea.png">
+			<img src="assets/images/jigglypuff.png">
+			<img src="assets/images/nidorino.png">
+			<img src="assets/images/pidgey.png">
+			<img src="assets/images/vulpix.png">
+			<img src="assets/images/wartortle.png">
+			<img src="assets/images/whatisthat.png">
+                </section>
 
-		<!-- depending on how you structure your html, you should have 3 section tags -->
-			<!-- 1) search box -->
-			<!-- 2) selected pokemon: picture, property and description of pikachu -->
-			<!-- 3) other pokemon pictures in 2x6 format -->
-
-		<!-- include navigation buttons -->
-
+                <footer>
+		        <nav>
+                                <a href='#'>BACK</a>
+                                <a href='#'>MAP</a>
+                                <a href='#'>AREA</a>
+                                <a href='#'>NEXT</a>
+                        </nav>
+                </footer>
 	</body>
 </html>
