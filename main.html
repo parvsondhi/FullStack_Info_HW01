@@ -5,18 +5,96 @@
 		<meta charset="UTF-8">
 		<title>pokedex</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- make sure to link to your css file -->
+		<link rel="stylesheet", type="text/css", href="main.css">
 	</head>
 
 	<body>
-		<!-- include a header tag -->
+		<header>
+            <!--dropdown menu on the left, pokeball icon on the right-->
+            <div> <button class="dropbtn">Dropdown</button> </div>
+            <h1>Pokedex</h1>
+            <a href="#footer"> <img src="assets/icons/pokeball_icon.png"> </a>
+        </header>    
 
-		<!-- depending on how you structure your html, you should have 3 section tags -->
+		<article>
 			<!-- 1) search box -->
-			<!-- 2) selected pokemon: picture, property and description of pikachu -->
-			<!-- 3) other pokemon pictures in 2x6 format -->
+            <div class="wrap">
+                <input type="text" class="searchTerm" placeholder="Search Pokemon">
+            </div>
+  
+            <!-- 2) selected pokemon: picture, property and description of pikachu -->
+            <div id="selected"> 
+                <img id="selected-img" src="assets/images/pikachu.png">
+                
+                <div id="selected-summary"> 
+                    <h2> No. 001 Pikachu </h2>
+                        <ul><h3>
+                            <li> - Electric type </li>
+                            <li> - Gentle temperament </li>
+                            <li> - Grasslands </li></h3>
+                        </ul>
+                </div>
+            </div>
 
-		<!-- include navigation buttons -->
+            <div class="box">
+                <h3><p>Pickahu can be seen napping in a bright sunlight. It has two red dots
+                on its cheeks. By practicing html and css Pikachu can learn confusion.</p>
+                    <p>Pikachu likes to steal computer chargers from sleeping college students.</p></h3>
+            </div>
+            
+			
+            <section class="row-of-creatures">
+            <!-- 3) first row of pokemon pictures in 2x6 format -->
+                <div class="other-item">
+                    <img src="assets/images/whatisthat.png">
+                </div>
+                <div class="other-item">
+                    <img src="assets/images/abra.png">
+                </div>
+                <div class="other-item">
+                    <img src="assets/images/vulpix.png">
+                </div>
+                <div class="other-item">
+                    <img src="assets/images/nidorino.png">
+                </div>
+                <div class="other-item">
+                    <img src="assets/images/clafary.png">
+                </div>
+                <div class="other-item">
+                    <img src="assets/images/charmeleon.png">
+                </div>
+            </section>
+            <section class="row-of-creatures">
+            <!-- 3) second row of pokemon pictures in 2x6 format -->
+                <div class="other-item">
+                    <img src="assets/images/charmander.png">
+                </div>
+                <div class="other-item">
+                    <img src="assets/images/firething.png">
+                </div>
+                <div class="other-item">
+                    <img src="assets/images/jigglypuff.png">
+                </div>
+                <div class="other-item">
+                    <img src="assets/images/horsea.png">
+                </div>
+                <div class="other-item">
+                    <img src="assets/images/pidgey.png">
+                </div>
+                <div class="other-item">
+                    <img src="assets/images/wartortle.png">
+                </div>
+            </section>
+		</article>
+
+        <footer id="footer">
+            <nav>
+                <a class="nav-button" href="#selected-summary">BACK</a>
+				<a class="nav-button" href="map.html">MAP</a>
+				<a class="nav-button" href="area.html">AREA</a>
+				<a class="nav-button" href="#selected">NEXT</a>
+            </nav>
+        </footer>
 
 	</body>
 </html>
